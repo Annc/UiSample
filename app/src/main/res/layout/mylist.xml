@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:gravity="fill_horizontal"
+    android:orientation="vertical">
+
+    <EditText
+        android:padding="7dp"
+        android:drawableLeft="@drawable/tou"
+        android:background="@drawable/edittext_shap"
+        android:inputType="text"
+        android:hint="请输入内容"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextgt" >
+    </EditText>
+    <ListView
+        android:choiceMode="singleChoice"
+        android:entries="@array/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="358dp"
+        android:id="@android:id/list"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_below="@id/editTextgt"/>
+</LinearLayout>

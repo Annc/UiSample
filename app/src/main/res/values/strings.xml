@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UiSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">hello</string>
+    <string-array name="spinner">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+        <item>four</item>
+    </string-array>
+</resources>

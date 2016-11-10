@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="add"
+        android:icon="@android:drawable/ic_menu_add"
+        ></item>
+    <item android:title="add"
+        android:icon="@android:drawable/ic_menu_zoom"
+        android:id="@+id/action_settings"
+        ></item>
+    <item android:title="add"
+        android:icon="@android:drawable/ic_menu_add"
+        ></item>
+    <item android:title="add"
+        android:icon="@android:drawable/ic_menu_zoom"
+        ></item>
+    <item android:title="add"
+    android:icon="@android:drawable/ic_menu_add"
+    ></item>
+    <item android:title="havesubmenu"
+        android:icon="@android:drawable/ic_menu_zoom"
+        >
+        <menu>
+            <item android:title="submenu1"
+                android:icon="@android:drawable/ic_menu_zoom"
+
+                ></item>
+            <item android:title="submenu2"
+                android:icon="@android:drawable/ic_menu_zoom"
+
+                ></item>
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item android:title="delete"
+            android:icon="@android:drawable/ic_menu_add"
+            ></item>
+        <item android:title="save"
+            android:icon="@android:drawable/ic_menu_zoom"
+            ></item>
+    </group>
+</menu>

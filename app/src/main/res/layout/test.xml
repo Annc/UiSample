@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:scrollbarThumbVertical="@drawable/tu"
+    android:scrollbarTrackVertical="@drawable/tou"
+    android:id="@+id/scrollView1">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="hello,今天成都下雨了!我还在听课，耳朵好痛,我的电话号码是18502075687,邮箱是1411436751@qq.com"
+        android:textColor="#666"
+        android:hint="no data"
+        android:textSize="12sp"
+        android:drawableLeft="@drawable/tou"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:drawablePadding="10dp"
+        android:autoLink="all"
+        android:textColorLink="#FF0000"
+        android:id="@+id/TextView1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button"
+        android:background="@drawable/button_bg"
+        android:id="@+id/button1"
+        />
+
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:id="@+id/toggleButton"
+        android:layout_gravity="left"
+        android:textOn="@null"
+        android:textOff="关"
+        android:background="@drawable/togbutton_bg"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你是人么？"
+        android:id="@+id/checkBox" />
+
+    <ImageButton
+        android:clickable="true"
+        android:layout_width="141dp"
+        android:layout_height="117dp"
+        android:id="@+id/imageButton"
+        android:src="@drawable/button_selector"
+        android:background="#00FFFFFF"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="381dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/sample_0"/>
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker"
+        android:layout_gravity="center_horizontal"
+        android:startYear="1900"
+        android:endYear="2999"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroup1">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiobutton1"
+            android:button="@null"
+            android:drawableLeft="@drawable/home"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiobutton2"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiobutton3"/>
+    </RadioGroup>
+
+    <Spinner
+        android:prompt="@string/hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:indeterminate="false"
+        android:progress="30"
+        android:secondaryProgress="50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/thumb"
+        android:id="@+id/seekBar" />
+
+    <QuickContactBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quickContactBadge"
+        android:src="@drawable/tu"
+        />
+
+    <RatingBar
+        style="@android:style/Widget.RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:numStars="5"
+        android:stepSize="1.0"
+        />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/autoCompleteTextView" />
+
+    <EditText
+        android:padding="7dp"
+        android:drawableLeft="@drawable/tou"
+        android:background="@drawable/edittext_shap"
+        android:inputType="number"
+        android:hint="请输入内容"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText" >
+    </EditText>
+
+
+</LinearLayout>
+</ScrollView>
